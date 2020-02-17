@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableCoal</defName>
+    <label>Coal Ore Deposit</label>
+    <description>A rich deposit of coal.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(72,80,100)</color>
+      <colorTwo>(175,183,204)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SB_coal_ore</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>10</min>
+        <max>40</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableCopper</defName>
+    <label>Copper Ore Deposit</label>
+    <description>A rich deposit of copper.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(201,119,72)</color>
+      <colorTwo>(231,171,137)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SB_copper_ore</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>10</min>
+        <max>40</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableIron</defName>
+    <label>Iron Ore Deposit</label>
+    <description>A rich deposit of iron.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(105,111,103)</color>
+      <colorTwo>(160,99,75)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SB_iron_ore</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>30</min>
+        <max>40</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableTungsten</defName>
+    <label>Tungsten Ore Deposit</label>
+    <description>A rich deposit of tungsten.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(215,217,219)</color>
+      <colorTwo>(185,187,190)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1600</MaxHitPoints>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SB_tungsten_ore</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.5</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>20</min>
+        <max>36</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableTitanium</defName>
+    <label>Titanium Ore Deposit</label>
+    <description>A rich deposit of titanium.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(218,216,237)</color>
+      <colorTwo>(104,93,161)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1700</MaxHitPoints>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SB_titanium_ore</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.25</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>10</min>
+        <max>24</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableDurasteel</defName>
+    <label>Durasteel Ore Deposit</label>
+    <description>A rich deposit of durasteel.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(161,182,213)</color>
+      <colorTwo>(210,218,228)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1800</MaxHitPoints>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SB_durasteel_ore</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>6</min>
+        <max>12</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableFerozium</defName>
+    <label>Ferozium Ore Deposit</label>
+    <description>A rich deposit of ferozium.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(106,106,106)</color>
+      <colorTwo>(171,231,227)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2200</MaxHitPoints>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SB_ferozium_ore</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.01</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>2</min>
+        <max>8</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+    <comps>
+    <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(78,174,179,5)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableAegisalt</defName>
+    <label>Aegisalt Ore Deposit</label>
+    <description>A rich deposit of aegisalt.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(106,106,106)</color>
+      <colorTwo>(188,232,52)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2200</MaxHitPoints>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SB_aegisalt_ore</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.01</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>2</min>
+        <max>8</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+    <comps>
+    <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(209,225,96,5)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableViolium</defName>
+    <label>Violium Ore Deposit</label>
+    <description>A rich deposit of violium.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(106,106,106)</color>
+      <colorTwo>(187,71,255)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2200</MaxHitPoints>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SB_violium_ore</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.01</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>2</min>
+        <max>8</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+    <comps>
+    <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(164,81,196,5)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableSolarium</defName>
+    <label>Solarium Ore Deposit</label>
+    <description>A rich deposit of solarium.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(210,128,0)</color>
+      <colorTwo>(248,236,32)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2400</MaxHitPoints>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SB_solarium</mineableThing>
+      <mineableYield>40</mineableYield>
+    </building>
+    <comps>
+    <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(248,236,32,5)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

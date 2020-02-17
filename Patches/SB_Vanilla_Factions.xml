@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+ 	<!-- Mercenary -->
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Mercenary_Gunner"]/weaponTags</xpath>
+	  <value>
+      <li>SBGunT1</li>
+      <li>SBGunT2</li>
+      <li>SBPistolT3</li>
+      <li>SBSMGT3</li>
+      <li>SBRifleT3</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Mercenary_Sniper"]/weaponTags</xpath>
+	  <value>
+      <li>SBSniperRifleT3</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Mercenary_Slasher"]/weaponTags</xpath>
+	  <value>
+      <li>SBMeleeT2</li>
+      <li>SBMeleeT3</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/weaponTags</xpath>
+	  <value>
+      <li>SBGunT4</li>
+      <li>SBMeleeReward</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Mercenary_Elite"]/weaponTags</xpath>
+	  <value>
+      <li>SBGunT4</li>
+	  </value>
+	</Operation>
+
+ 	<!-- Outlander -->
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Villager"]/weaponTags</xpath>
+	  <value>
+      <li>SBGunT0</li>
+      <li>SBGunT1</li>
+      <li>SBBowT1</li>
+      <li>SBMeleeT1</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Town_Guard"]/weaponTags</xpath>
+	  <value>
+      <li>SBGunT1</li>
+      <li>SBGunT2</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Town_Trader"]/weaponTags</xpath>
+	  <value>
+      <li>SBGunT0</li>
+      <li>SBGunT1</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Town_Councilman"]/weaponTags</xpath>
+	  <value>
+      <li>SBGunT0</li>
+      <li>SBGunT1</li>
+	  </value>
+	</Operation>
+
+ 	<!-- Pirate -->
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Drifter"]/weaponTags</xpath>
+	  <value>
+      <li>SBMeleeT1</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Scavenger"]/weaponTags</xpath>
+	  <value>
+      <li>SBGunT1</li>
+      <li>SBGunT2</li>
+      <li>SBBowT1</li>
+      <li>SBBowT2</li>
+      <li>SBBowT3</li>
+      <li>SBBowT4</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Thrasher"]/weaponTags</xpath>
+	  <value>
+      <li>SBMeleeT1</li>
+      <li>SBMeleeT2</li>
+      <li>SBMeleeT3</li>
+      <li>SBMeleeT4</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Pirate"]/weaponTags</xpath>
+	  <value>
+      <li>SBGunT1</li>
+      <li>SBGunT2</li>
+      <li>SBGunT3</li>
+      <li>SBGunT4</li>
+	  </value>
+	</Operation>
+
+ 	<!-- Spacer -->
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "AncientSoldier"]/weaponTags</xpath>
+	  <value>
+      <li>SBGunT4</li>
+      <li>SBGunT5</li>
+      <li>SBBowT4</li>
+      <li>SBBowT5</li>
+      <li>SBMeleeT4</li>
+      <li>SBMeleeT5</li>
+      <li>SBMagicT5</li>
+	  </value>
+	</Operation>
+
+ 	<!-- Special -->
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "StrangerInBlack"]/weaponTags</xpath>
+	  <value>
+      <li>SBRevolverT2</li>
+      <li>SBRevolverT3</li>
+      <li>SBRevolverT4</li>
+      <li>SBRevolverT5</li>
+	  </value>
+	</Operation>
+
+ 	<!-- Tribal -->
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Tribal_Penitent"]/weaponTags</xpath>
+	  <value>
+      <li>SBMeleeT1</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Tribal_Archer"]/weaponTags</xpath>
+	  <value>
+      <li>SBBowT1</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Tribal_Warrior"]/weaponTags</xpath>
+	  <value>
+      <li>SBMeleeT1</li>
+      <li>SBMeleeDecentT2</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Tribal_Hunter"]/weaponTags</xpath>
+	  <value>
+      <li>SBBowT1</li>
+      <li>SBBowT2</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Tribal_Berserker"]/weaponTags</xpath>
+	  <value>
+      <li>SBMeleeHeavyT2</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Tribal_HeavyArcher"]/weaponTags</xpath>
+	  <value>
+      <li>SBBowT2</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Tribal_ChiefMelee"]/weaponTags</xpath>
+	  <value>
+      <li>SBMeleeHeavyT3</li>
+      <li>SBMeleeT6</li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/PawnKindDef[defName = "Tribal_ChiefRanged"]/weaponTags</xpath>
+	  <value>
+      <li>SBBowT3</li>
+      <li>SBMagicT6</li>
+	  </value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier1</defName>
+    <label>Iron Forging</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>Stonecutting</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier2</defName>
+    <label>Tungsten Forging</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>SB_Tier1</li>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier3</defName>
+    <label>Titanium Forging</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>SB_Tier2</li>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier4</defName>
+    <label>Durasteel Forging</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>SB_Tier3</li>
+      <li>Machining</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier5_Aegisalt</defName>
+    <label>Aegisalt Refining</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>1600</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>SB_Tier4</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier5_Ferozium</defName>
+    <label>Ferozium Refining</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>1600</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>SB_Tier4</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0.75</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier5_Violium</defName>
+    <label>Violium Refining</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>1600</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>SB_Tier4</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1.5</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier6</defName>
+    <label>Solarium Analysis</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>3200</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>MultiAnalyzer</li>
+    </prerequisites>
+    <researchViewX>4.5</researchViewX>
+    <researchViewY>2.25</researchViewY>
+    <requiredResearchBuilding>MultiAnalyzer</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier6_Cerulium</defName>
+    <label>Aegisalt Acceleration</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>2400</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>SB_Tier5_Aegisalt</li>
+      <li>SB_Tier6</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>0</researchViewY>
+    <requiredResearchBuilding>MultiAnalyzer</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier6_Rubium</defName>
+    <label>Ferozium Manipulation</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>2400</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>SB_Tier5_Ferozium</li>
+      <li>SB_Tier6</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>0.75</researchViewY>
+    <requiredResearchBuilding>MultiAnalyzer</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier6_Impervium</defName>
+    <label>Violium Separation</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>2400</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>SB_Tier5_Violium</li>
+      <li>SB_Tier6</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>1.5</researchViewY>
+    <requiredResearchBuilding>MultiAnalyzer</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SB_Tier7</defName>
+    <label>The Protectorate's Secrets</label>
+    <tab>Starbound</tab>
+    <description>TBA</description>
+    <baseCost>6400</baseCost>
+    <techLevel>Archotech</techLevel>
+    <prerequisites>
+      <li>SB_Tier6_Cerulium</li>
+      <li>SB_Tier6_Rubium</li>
+      <li>SB_Tier6_Impervium</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>0.75</researchViewY>
+    <requiredResearchBuilding>MultiAnalyzer</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+</Defs>

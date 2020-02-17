@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SoundDef>
+    <defName>SB_Grenadeblast</defName>  
+    <context>MapOnly</context> 
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Starbound/grenadeblast</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>80</min>        
+          <max>80</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8516304</min>        
+          <max>1.254348</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SB_Electricblast</defName>
+    <context>MapOnly</context> 
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Starbound/electricblast</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>70</min>
+          <max>70</max>
+        </volumeRange>
+        <pitchRange>
+          <min>1.6516304</min>
+          <max>1.954348</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>  
+  
+  <SoundDef>
+    <defName>SB_Rocketblast</defName>  
+    <context>MapOnly</context> 
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Starbound/rocketblast</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>100</min>        
+          <max>100</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8516304</min>        
+          <max>1.254348</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

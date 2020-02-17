@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SoundDef>
+    <defName>SB_Aegisaltbeam_Start</defName>
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Starbound/aegisaltpistol/aegisaltpistol_start</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SB_Aegisaltbeam_Loop</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxVoices>3</maxVoices>  
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Starbound/aegisaltpistol/aegisaltpistol_loop</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>100</min>        
+          <max>100</max>
+        </volumeRange>
+        <distRange>
+          <min>10</min>        
+          <max>50</max>
+        </distRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef> 
+
+  <SoundDef>
+    <defName>SB_Aegisaltbeam_Stop</defName>
+    <context>MapOnly</context>  
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Starbound/aegisaltpistol/aegisaltpistol_stop</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>10.70588</min>        
+          <max>10.70588</max>
+        </volumeRange>         
+        <pitchRange>
+          <min>0.9541177</min>        
+          <max>1.137647</max>
+        </pitchRange>         
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SB_interact_assaultrifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>UI/WeaponHandling/SB_interact_assaultrifle</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8728257</min>        
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SB_interact_grenade</defName>  
+    <context>MapOnly</context> 
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>UI/WeaponHandling/SB_interact_grenade</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>23.91304</min>        
+          <max>23.91304</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9576087</min>        
+          <max>1.084783</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SB_interact_machinepistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>UI/WeaponHandling/SB_interact_machinepistol</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8728257</min>        
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SB_interact_pistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>UI/WeaponHandling/SB_interact_pistol</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8728257</min>        
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SB_interact_rocket</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>UI/WeaponHandling/SB_interact_rocket</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8728257</min>        
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SB_interact_shotgun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>UI/WeaponHandling/SB_interact_shotgun</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8728257</min>        
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SB_interact_sniper</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>UI/WeaponHandling/SB_interact_sniper</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8728257</min>        
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_grenade</defName>  
+    <context>MapOnly</context> 
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/grenade</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>34.7826</min>        
+          <max>34.7826</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9576087</min>        
+          <max>1.063587</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>      
+        <sustainIntervalRange>
+          <min>0.1025641</min>        
+          <max>0.1025641</max>
+        </sustainIntervalRange>
+      </li>   
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_rocket</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/rocket</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>1.4</min>        
+          <max>1.6</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_rocketmini</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/rocketmini</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>1.4</min>        
+          <max>1.6</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_plasma_ar</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/plasma_ar</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_Revolver1</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/revolver1</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_Revolver2</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/revolver2</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_magnum</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/magnum</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>61.76471</min>        
+          <max>61.76471</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_pistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Starbound/pistol</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>61.76471</min>        
+          <max>61.76471</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_MachinePistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Starbound/mp</clipFolderPath>
+          </li>
+        </grains>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_plasma_mp</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/plasma_mp</clipPath>
+          </li>
+        </grains>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_uzi</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <name>Shot</name>      
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Starbound/uzi</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>40.58823</min>        
+          <max>40.58823</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_AssaultRifle1</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/ar1</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.2941</min>        
+          <max>45.2941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.091765</min>        
+          <max>1</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_AssaultRifle2</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/ar2</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.2941</min>        
+          <max>45.2941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.091765</min>        
+          <max>1</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_AssaultRifle3</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/ar3</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.2941</min>        
+          <max>45.2941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.091765</min>        
+          <max>1</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_AssaultRifle4</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/ar4</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.2941</min>        
+          <max>45.2941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.091765</min>        
+          <max>1</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_AssaultRifle5</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/ar5</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.2941</min>        
+          <max>45.2941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.091765</min>        
+          <max>1</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_AssaultRifle6</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/ar6</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.2941</min>        
+          <max>45.2941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.091765</min>        
+          <max>1</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_Shotgun1</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/shotgun1</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>94.70588</min>        
+          <max>94.70588</max>
+        </volumeRange>      
+        <distRange>
+          <min>39.11765</min>        
+          <max>70</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_Shotgun2</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/shotgun2</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>94.70588</min>        
+          <max>94.70588</max>
+        </volumeRange>      
+        <distRange>
+          <min>39.11765</min>        
+          <max>70</max>
+        </distRange>
+      </li>    
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Shotgun/Rack</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>10.58823</min>        
+          <max>10.58823</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9311765</min>        
+          <max>1.137647</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_rifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Starbound/riflem</clipFolderPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.9770592</min>        
+          <max>1.114706</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_rifle1</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/rifle1</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.9770592</min>        
+          <max>1.114706</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_rifle2</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/rifle2</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.9770592</min>        
+          <max>1.114706</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_rifle3</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/rifle4</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.9770592</min>        
+          <max>1.114706</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_sniper</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/sniper</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>70</min>        
+          <max>70</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_plasma_sniper</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/plasma_sniper</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>70</min>        
+          <max>70</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_sniper_dart</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/dart</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>70</min>        
+          <max>70</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SBshot_railgun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/railgun</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>70</min>        
+          <max>70</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SB_staff_charge</defName>
+    <sustain>true</sustain>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Starbound/staff_charge</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.99</min>        
+          <max>1.01</max>
+        </pitchRange>
+        <volumeRange>
+          <min>10</min>        
+          <max>10</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
